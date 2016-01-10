@@ -1,0 +1,2 @@
+APScheduler==3.0.5
+pygobject==3.12.0
