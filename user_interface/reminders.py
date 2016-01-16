@@ -72,6 +72,7 @@ class Reminders(Gtk.Window):
                 return self.on_add_btn_click(widget)
             self.add_row(reminder)
             self.logger.info('User added a new reminder')
+            dialog.destroy()
         elif response == Gtk.ResponseType.CANCEL:
             dialog.destroy()
 
